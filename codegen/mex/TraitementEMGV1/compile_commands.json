@@ -1,0 +1,956 @@
+[
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_add_ri.c /Fobuild\\win64\\cs_add_ri.obj",
+    "file": "CXSparse/Source/cs_add_ri.c",
+    "output": "build/win64/cs_add_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_add_ci.c /Fobuild\\win64\\cs_add_ci.obj",
+    "file": "CXSparse/Source/cs_add_ci.c",
+    "output": "build/win64/cs_add_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_amd_ri.c /Fobuild\\win64\\cs_amd_ri.obj",
+    "file": "CXSparse/Source/cs_amd_ri.c",
+    "output": "build/win64/cs_amd_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_amd_ci.c /Fobuild\\win64\\cs_amd_ci.obj",
+    "file": "CXSparse/Source/cs_amd_ci.c",
+    "output": "build/win64/cs_amd_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_chol_ri.c /Fobuild\\win64\\cs_chol_ri.obj",
+    "file": "CXSparse/Source/cs_chol_ri.c",
+    "output": "build/win64/cs_chol_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_chol_ci.c /Fobuild\\win64\\cs_chol_ci.obj",
+    "file": "CXSparse/Source/cs_chol_ci.c",
+    "output": "build/win64/cs_chol_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_cholsol_ri.c /Fobuild\\win64\\cs_cholsol_ri.obj",
+    "file": "CXSparse/Source/cs_cholsol_ri.c",
+    "output": "build/win64/cs_cholsol_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_cholsol_ci.c /Fobuild\\win64\\cs_cholsol_ci.obj",
+    "file": "CXSparse/Source/cs_cholsol_ci.c",
+    "output": "build/win64/cs_cholsol_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_counts_ri.c /Fobuild\\win64\\cs_counts_ri.obj",
+    "file": "CXSparse/Source/cs_counts_ri.c",
+    "output": "build/win64/cs_counts_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_counts_ci.c /Fobuild\\win64\\cs_counts_ci.obj",
+    "file": "CXSparse/Source/cs_counts_ci.c",
+    "output": "build/win64/cs_counts_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_cumsum_ri.c /Fobuild\\win64\\cs_cumsum_ri.obj",
+    "file": "CXSparse/Source/cs_cumsum_ri.c",
+    "output": "build/win64/cs_cumsum_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_cumsum_ci.c /Fobuild\\win64\\cs_cumsum_ci.obj",
+    "file": "CXSparse/Source/cs_cumsum_ci.c",
+    "output": "build/win64/cs_cumsum_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_dfs_ri.c /Fobuild\\win64\\cs_dfs_ri.obj",
+    "file": "CXSparse/Source/cs_dfs_ri.c",
+    "output": "build/win64/cs_dfs_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_dfs_ci.c /Fobuild\\win64\\cs_dfs_ci.obj",
+    "file": "CXSparse/Source/cs_dfs_ci.c",
+    "output": "build/win64/cs_dfs_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_dmperm_ri.c /Fobuild\\win64\\cs_dmperm_ri.obj",
+    "file": "CXSparse/Source/cs_dmperm_ri.c",
+    "output": "build/win64/cs_dmperm_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_dmperm_ci.c /Fobuild\\win64\\cs_dmperm_ci.obj",
+    "file": "CXSparse/Source/cs_dmperm_ci.c",
+    "output": "build/win64/cs_dmperm_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_droptol_ri.c /Fobuild\\win64\\cs_droptol_ri.obj",
+    "file": "CXSparse/Source/cs_droptol_ri.c",
+    "output": "build/win64/cs_droptol_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_droptol_ci.c /Fobuild\\win64\\cs_droptol_ci.obj",
+    "file": "CXSparse/Source/cs_droptol_ci.c",
+    "output": "build/win64/cs_droptol_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_dropzeros_ri.c /Fobuild\\win64\\cs_dropzeros_ri.obj",
+    "file": "CXSparse/Source/cs_dropzeros_ri.c",
+    "output": "build/win64/cs_dropzeros_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_dropzeros_ci.c /Fobuild\\win64\\cs_dropzeros_ci.obj",
+    "file": "CXSparse/Source/cs_dropzeros_ci.c",
+    "output": "build/win64/cs_dropzeros_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_dupl_ri.c /Fobuild\\win64\\cs_dupl_ri.obj",
+    "file": "CXSparse/Source/cs_dupl_ri.c",
+    "output": "build/win64/cs_dupl_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_dupl_ci.c /Fobuild\\win64\\cs_dupl_ci.obj",
+    "file": "CXSparse/Source/cs_dupl_ci.c",
+    "output": "build/win64/cs_dupl_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_entry_ri.c /Fobuild\\win64\\cs_entry_ri.obj",
+    "file": "CXSparse/Source/cs_entry_ri.c",
+    "output": "build/win64/cs_entry_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_entry_ci.c /Fobuild\\win64\\cs_entry_ci.obj",
+    "file": "CXSparse/Source/cs_entry_ci.c",
+    "output": "build/win64/cs_entry_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_etree_ri.c /Fobuild\\win64\\cs_etree_ri.obj",
+    "file": "CXSparse/Source/cs_etree_ri.c",
+    "output": "build/win64/cs_etree_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_etree_ci.c /Fobuild\\win64\\cs_etree_ci.obj",
+    "file": "CXSparse/Source/cs_etree_ci.c",
+    "output": "build/win64/cs_etree_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_fkeep_ri.c /Fobuild\\win64\\cs_fkeep_ri.obj",
+    "file": "CXSparse/Source/cs_fkeep_ri.c",
+    "output": "build/win64/cs_fkeep_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_fkeep_ci.c /Fobuild\\win64\\cs_fkeep_ci.obj",
+    "file": "CXSparse/Source/cs_fkeep_ci.c",
+    "output": "build/win64/cs_fkeep_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_gaxpy_ri.c /Fobuild\\win64\\cs_gaxpy_ri.obj",
+    "file": "CXSparse/Source/cs_gaxpy_ri.c",
+    "output": "build/win64/cs_gaxpy_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_gaxpy_ci.c /Fobuild\\win64\\cs_gaxpy_ci.obj",
+    "file": "CXSparse/Source/cs_gaxpy_ci.c",
+    "output": "build/win64/cs_gaxpy_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_happly_ri.c /Fobuild\\win64\\cs_happly_ri.obj",
+    "file": "CXSparse/Source/cs_happly_ri.c",
+    "output": "build/win64/cs_happly_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_happly_ci.c /Fobuild\\win64\\cs_happly_ci.obj",
+    "file": "CXSparse/Source/cs_happly_ci.c",
+    "output": "build/win64/cs_happly_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_house_ri.c /Fobuild\\win64\\cs_house_ri.obj",
+    "file": "CXSparse/Source/cs_house_ri.c",
+    "output": "build/win64/cs_house_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_house_ci.c /Fobuild\\win64\\cs_house_ci.obj",
+    "file": "CXSparse/Source/cs_house_ci.c",
+    "output": "build/win64/cs_house_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_ipvec_ri.c /Fobuild\\win64\\cs_ipvec_ri.obj",
+    "file": "CXSparse/Source/cs_ipvec_ri.c",
+    "output": "build/win64/cs_ipvec_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_ipvec_ci.c /Fobuild\\win64\\cs_ipvec_ci.obj",
+    "file": "CXSparse/Source/cs_ipvec_ci.c",
+    "output": "build/win64/cs_ipvec_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_load_ri.c /Fobuild\\win64\\cs_load_ri.obj",
+    "file": "CXSparse/Source/cs_load_ri.c",
+    "output": "build/win64/cs_load_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_load_ci.c /Fobuild\\win64\\cs_load_ci.obj",
+    "file": "CXSparse/Source/cs_load_ci.c",
+    "output": "build/win64/cs_load_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_lsolve_ri.c /Fobuild\\win64\\cs_lsolve_ri.obj",
+    "file": "CXSparse/Source/cs_lsolve_ri.c",
+    "output": "build/win64/cs_lsolve_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_lsolve_ci.c /Fobuild\\win64\\cs_lsolve_ci.obj",
+    "file": "CXSparse/Source/cs_lsolve_ci.c",
+    "output": "build/win64/cs_lsolve_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_ltsolve_ri.c /Fobuild\\win64\\cs_ltsolve_ri.obj",
+    "file": "CXSparse/Source/cs_ltsolve_ri.c",
+    "output": "build/win64/cs_ltsolve_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_ltsolve_ci.c /Fobuild\\win64\\cs_ltsolve_ci.obj",
+    "file": "CXSparse/Source/cs_ltsolve_ci.c",
+    "output": "build/win64/cs_ltsolve_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_lu_ri.c /Fobuild\\win64\\cs_lu_ri.obj",
+    "file": "CXSparse/Source/cs_lu_ri.c",
+    "output": "build/win64/cs_lu_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_lu_ci.c /Fobuild\\win64\\cs_lu_ci.obj",
+    "file": "CXSparse/Source/cs_lu_ci.c",
+    "output": "build/win64/cs_lu_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_lusol_ri.c /Fobuild\\win64\\cs_lusol_ri.obj",
+    "file": "CXSparse/Source/cs_lusol_ri.c",
+    "output": "build/win64/cs_lusol_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_lusol_ci.c /Fobuild\\win64\\cs_lusol_ci.obj",
+    "file": "CXSparse/Source/cs_lusol_ci.c",
+    "output": "build/win64/cs_lusol_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_malloc_ri.c /Fobuild\\win64\\cs_malloc_ri.obj",
+    "file": "CXSparse/Source/cs_malloc_ri.c",
+    "output": "build/win64/cs_malloc_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_malloc_ci.c /Fobuild\\win64\\cs_malloc_ci.obj",
+    "file": "CXSparse/Source/cs_malloc_ci.c",
+    "output": "build/win64/cs_malloc_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_maxtrans_ri.c /Fobuild\\win64\\cs_maxtrans_ri.obj",
+    "file": "CXSparse/Source/cs_maxtrans_ri.c",
+    "output": "build/win64/cs_maxtrans_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_maxtrans_ci.c /Fobuild\\win64\\cs_maxtrans_ci.obj",
+    "file": "CXSparse/Source/cs_maxtrans_ci.c",
+    "output": "build/win64/cs_maxtrans_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_multiply_ri.c /Fobuild\\win64\\cs_multiply_ri.obj",
+    "file": "CXSparse/Source/cs_multiply_ri.c",
+    "output": "build/win64/cs_multiply_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_multiply_ci.c /Fobuild\\win64\\cs_multiply_ci.obj",
+    "file": "CXSparse/Source/cs_multiply_ci.c",
+    "output": "build/win64/cs_multiply_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_norm_ri.c /Fobuild\\win64\\cs_norm_ri.obj",
+    "file": "CXSparse/Source/cs_norm_ri.c",
+    "output": "build/win64/cs_norm_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_norm_ci.c /Fobuild\\win64\\cs_norm_ci.obj",
+    "file": "CXSparse/Source/cs_norm_ci.c",
+    "output": "build/win64/cs_norm_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_permute_ri.c /Fobuild\\win64\\cs_permute_ri.obj",
+    "file": "CXSparse/Source/cs_permute_ri.c",
+    "output": "build/win64/cs_permute_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_permute_ci.c /Fobuild\\win64\\cs_permute_ci.obj",
+    "file": "CXSparse/Source/cs_permute_ci.c",
+    "output": "build/win64/cs_permute_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_pinv_ri.c /Fobuild\\win64\\cs_pinv_ri.obj",
+    "file": "CXSparse/Source/cs_pinv_ri.c",
+    "output": "build/win64/cs_pinv_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_pinv_ci.c /Fobuild\\win64\\cs_pinv_ci.obj",
+    "file": "CXSparse/Source/cs_pinv_ci.c",
+    "output": "build/win64/cs_pinv_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_post_ri.c /Fobuild\\win64\\cs_post_ri.obj",
+    "file": "CXSparse/Source/cs_post_ri.c",
+    "output": "build/win64/cs_post_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_post_ci.c /Fobuild\\win64\\cs_post_ci.obj",
+    "file": "CXSparse/Source/cs_post_ci.c",
+    "output": "build/win64/cs_post_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_print_ri.c /Fobuild\\win64\\cs_print_ri.obj",
+    "file": "CXSparse/Source/cs_print_ri.c",
+    "output": "build/win64/cs_print_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_print_ci.c /Fobuild\\win64\\cs_print_ci.obj",
+    "file": "CXSparse/Source/cs_print_ci.c",
+    "output": "build/win64/cs_print_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_pvec_ri.c /Fobuild\\win64\\cs_pvec_ri.obj",
+    "file": "CXSparse/Source/cs_pvec_ri.c",
+    "output": "build/win64/cs_pvec_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_pvec_ci.c /Fobuild\\win64\\cs_pvec_ci.obj",
+    "file": "CXSparse/Source/cs_pvec_ci.c",
+    "output": "build/win64/cs_pvec_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_qr_ri.c /Fobuild\\win64\\cs_qr_ri.obj",
+    "file": "CXSparse/Source/cs_qr_ri.c",
+    "output": "build/win64/cs_qr_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_qr_ci.c /Fobuild\\win64\\cs_qr_ci.obj",
+    "file": "CXSparse/Source/cs_qr_ci.c",
+    "output": "build/win64/cs_qr_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_qrsol_ri.c /Fobuild\\win64\\cs_qrsol_ri.obj",
+    "file": "CXSparse/Source/cs_qrsol_ri.c",
+    "output": "build/win64/cs_qrsol_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_qrsol_ci.c /Fobuild\\win64\\cs_qrsol_ci.obj",
+    "file": "CXSparse/Source/cs_qrsol_ci.c",
+    "output": "build/win64/cs_qrsol_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_scatter_ri.c /Fobuild\\win64\\cs_scatter_ri.obj",
+    "file": "CXSparse/Source/cs_scatter_ri.c",
+    "output": "build/win64/cs_scatter_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_scatter_ci.c /Fobuild\\win64\\cs_scatter_ci.obj",
+    "file": "CXSparse/Source/cs_scatter_ci.c",
+    "output": "build/win64/cs_scatter_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_scc_ri.c /Fobuild\\win64\\cs_scc_ri.obj",
+    "file": "CXSparse/Source/cs_scc_ri.c",
+    "output": "build/win64/cs_scc_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_scc_ci.c /Fobuild\\win64\\cs_scc_ci.obj",
+    "file": "CXSparse/Source/cs_scc_ci.c",
+    "output": "build/win64/cs_scc_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_schol_ri.c /Fobuild\\win64\\cs_schol_ri.obj",
+    "file": "CXSparse/Source/cs_schol_ri.c",
+    "output": "build/win64/cs_schol_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_schol_ci.c /Fobuild\\win64\\cs_schol_ci.obj",
+    "file": "CXSparse/Source/cs_schol_ci.c",
+    "output": "build/win64/cs_schol_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_sqr_ri.c /Fobuild\\win64\\cs_sqr_ri.obj",
+    "file": "CXSparse/Source/cs_sqr_ri.c",
+    "output": "build/win64/cs_sqr_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_sqr_ci.c /Fobuild\\win64\\cs_sqr_ci.obj",
+    "file": "CXSparse/Source/cs_sqr_ci.c",
+    "output": "build/win64/cs_sqr_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_symperm_ri.c /Fobuild\\win64\\cs_symperm_ri.obj",
+    "file": "CXSparse/Source/cs_symperm_ri.c",
+    "output": "build/win64/cs_symperm_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_symperm_ci.c /Fobuild\\win64\\cs_symperm_ci.obj",
+    "file": "CXSparse/Source/cs_symperm_ci.c",
+    "output": "build/win64/cs_symperm_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_tdfs_ri.c /Fobuild\\win64\\cs_tdfs_ri.obj",
+    "file": "CXSparse/Source/cs_tdfs_ri.c",
+    "output": "build/win64/cs_tdfs_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_tdfs_ci.c /Fobuild\\win64\\cs_tdfs_ci.obj",
+    "file": "CXSparse/Source/cs_tdfs_ci.c",
+    "output": "build/win64/cs_tdfs_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_transpose_ri.c /Fobuild\\win64\\cs_transpose_ri.obj",
+    "file": "CXSparse/Source/cs_transpose_ri.c",
+    "output": "build/win64/cs_transpose_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_transpose_ci.c /Fobuild\\win64\\cs_transpose_ci.obj",
+    "file": "CXSparse/Source/cs_transpose_ci.c",
+    "output": "build/win64/cs_transpose_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_compress_ri.c /Fobuild\\win64\\cs_compress_ri.obj",
+    "file": "CXSparse/Source/cs_compress_ri.c",
+    "output": "build/win64/cs_compress_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_compress_ci.c /Fobuild\\win64\\cs_compress_ci.obj",
+    "file": "CXSparse/Source/cs_compress_ci.c",
+    "output": "build/win64/cs_compress_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_updown_ri.c /Fobuild\\win64\\cs_updown_ri.obj",
+    "file": "CXSparse/Source/cs_updown_ri.c",
+    "output": "build/win64/cs_updown_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_updown_ci.c /Fobuild\\win64\\cs_updown_ci.obj",
+    "file": "CXSparse/Source/cs_updown_ci.c",
+    "output": "build/win64/cs_updown_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_usolve_ri.c /Fobuild\\win64\\cs_usolve_ri.obj",
+    "file": "CXSparse/Source/cs_usolve_ri.c",
+    "output": "build/win64/cs_usolve_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_usolve_ci.c /Fobuild\\win64\\cs_usolve_ci.obj",
+    "file": "CXSparse/Source/cs_usolve_ci.c",
+    "output": "build/win64/cs_usolve_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_utsolve_ri.c /Fobuild\\win64\\cs_utsolve_ri.obj",
+    "file": "CXSparse/Source/cs_utsolve_ri.c",
+    "output": "build/win64/cs_utsolve_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_utsolve_ci.c /Fobuild\\win64\\cs_utsolve_ci.obj",
+    "file": "CXSparse/Source/cs_utsolve_ci.c",
+    "output": "build/win64/cs_utsolve_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_util_ri.c /Fobuild\\win64\\cs_util_ri.obj",
+    "file": "CXSparse/Source/cs_util_ri.c",
+    "output": "build/win64/cs_util_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_util_ci.c /Fobuild\\win64\\cs_util_ci.obj",
+    "file": "CXSparse/Source/cs_util_ci.c",
+    "output": "build/win64/cs_util_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_reach_ri.c /Fobuild\\win64\\cs_reach_ri.obj",
+    "file": "CXSparse/Source/cs_reach_ri.c",
+    "output": "build/win64/cs_reach_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_reach_ci.c /Fobuild\\win64\\cs_reach_ci.obj",
+    "file": "CXSparse/Source/cs_reach_ci.c",
+    "output": "build/win64/cs_reach_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_spsolve_ri.c /Fobuild\\win64\\cs_spsolve_ri.obj",
+    "file": "CXSparse/Source/cs_spsolve_ri.c",
+    "output": "build/win64/cs_spsolve_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_spsolve_ci.c /Fobuild\\win64\\cs_spsolve_ci.obj",
+    "file": "CXSparse/Source/cs_spsolve_ci.c",
+    "output": "build/win64/cs_spsolve_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_ereach_ri.c /Fobuild\\win64\\cs_ereach_ri.obj",
+    "file": "CXSparse/Source/cs_ereach_ri.c",
+    "output": "build/win64/cs_ereach_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_ereach_ci.c /Fobuild\\win64\\cs_ereach_ci.obj",
+    "file": "CXSparse/Source/cs_ereach_ci.c",
+    "output": "build/win64/cs_ereach_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_leaf_ri.c /Fobuild\\win64\\cs_leaf_ri.obj",
+    "file": "CXSparse/Source/cs_leaf_ri.c",
+    "output": "build/win64/cs_leaf_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_leaf_ci.c /Fobuild\\win64\\cs_leaf_ci.obj",
+    "file": "CXSparse/Source/cs_leaf_ci.c",
+    "output": "build/win64/cs_leaf_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_randperm_ri.c /Fobuild\\win64\\cs_randperm_ri.obj",
+    "file": "CXSparse/Source/cs_randperm_ri.c",
+    "output": "build/win64/cs_randperm_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_randperm_ci.c /Fobuild\\win64\\cs_randperm_ci.obj",
+    "file": "CXSparse/Source/cs_randperm_ci.c",
+    "output": "build/win64/cs_randperm_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_operator_ri.c /Fobuild\\win64\\cs_operator_ri.obj",
+    "file": "CXSparse/Source/cs_operator_ri.c",
+    "output": "build/win64/cs_operator_ri.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\Source\\cs_operator_ci.c /Fobuild\\win64\\cs_operator_ci.obj",
+    "file": "CXSparse/Source/cs_operator_ci.c",
+    "output": "build/win64/cs_operator_ci.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\CXSparseSupport\\solve_from_lu.c /Fobuild\\win64\\solve_from_lu.obj",
+    "file": "CXSparse/CXSparseSupport/solve_from_lu.c",
+    "output": "build/win64/solve_from_lu.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\CXSparseSupport\\solve_from_qr.c /Fobuild\\win64\\solve_from_qr.obj",
+    "file": "CXSparse/CXSparseSupport/solve_from_qr.c",
+    "output": "build/win64/solve_from_qr.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\CXSparseSupport\\makeCXSparseMatrix.c /Fobuild\\win64\\makeCXSparseMatrix.obj",
+    "file": "CXSparse/CXSparseSupport/makeCXSparseMatrix.c",
+    "output": "build/win64/makeCXSparseMatrix.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   CXSparse\\CXSparseSupport\\unpackCXStruct.c /Fobuild\\win64\\unpackCXStruct.obj",
+    "file": "CXSparse/CXSparseSupport/unpackCXStruct.c",
+    "output": "build/win64/unpackCXStruct.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   TraitementEMGV1_data.c /Fobuild\\win64\\TraitementEMGV1_data.obj",
+    "file": "TraitementEMGV1_data.c",
+    "output": "build/win64/TraitementEMGV1_data.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   rt_nonfinite.c /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   TraitementEMGV1_initialize.c /Fobuild\\win64\\TraitementEMGV1_initialize.obj",
+    "file": "TraitementEMGV1_initialize.c",
+    "output": "build/win64/TraitementEMGV1_initialize.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   TraitementEMGV1_terminate.c /Fobuild\\win64\\TraitementEMGV1_terminate.obj",
+    "file": "TraitementEMGV1_terminate.c",
+    "output": "build/win64/TraitementEMGV1_terminate.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   TraitementEMGV1.c /Fobuild\\win64\\TraitementEMGV1.obj",
+    "file": "TraitementEMGV1.c",
+    "output": "build/win64/TraitementEMGV1.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   detrend.c /Fobuild\\win64\\detrend.obj",
+    "file": "detrend.c",
+    "output": "build/win64/detrend.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   qr.c /Fobuild\\win64\\qr.obj",
+    "file": "qr.c",
+    "output": "build/win64/qr.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   eml_int_forloop_overflow_check.c /Fobuild\\win64\\eml_int_forloop_overflow_check.obj",
+    "file": "eml_int_forloop_overflow_check.c",
+    "output": "build/win64/eml_int_forloop_overflow_check.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   mtimes.c /Fobuild\\win64\\mtimes.obj",
+    "file": "mtimes.c",
+    "output": "build/win64/mtimes.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   warning.c /Fobuild\\win64\\warning.obj",
+    "file": "warning.c",
+    "output": "build/win64/warning.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   pwelch.c /Fobuild\\win64\\pwelch.obj",
+    "file": "pwelch.c",
+    "output": "build/win64/pwelch.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   computeperiodogram.c /Fobuild\\win64\\computeperiodogram.obj",
+    "file": "computeperiodogram.c",
+    "output": "build/win64/computeperiodogram.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   psdfreqvec.c /Fobuild\\win64\\psdfreqvec.obj",
+    "file": "psdfreqvec.c",
+    "output": "build/win64/psdfreqvec.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   computepsd.c /Fobuild\\win64\\computepsd.obj",
+    "file": "computepsd.c",
+    "output": "build/win64/computepsd.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   indexShapeCheck.c /Fobuild\\win64\\indexShapeCheck.obj",
+    "file": "indexShapeCheck.c",
+    "output": "build/win64/indexShapeCheck.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   welch.c /Fobuild\\win64\\welch.obj",
+    "file": "welch.c",
+    "output": "build/win64/welch.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   colon.c /Fobuild\\win64\\colon.obj",
+    "file": "colon.c",
+    "output": "build/win64/colon.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   mean.c /Fobuild\\win64\\mean.obj",
+    "file": "mean.c",
+    "output": "build/win64/mean.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   find.c /Fobuild\\win64\\find.obj",
+    "file": "find.c",
+    "output": "build/win64/find.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   butter.c /Fobuild\\win64\\butter.obj",
+    "file": "butter.c",
+    "output": "build/win64/butter.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   bilinear.c /Fobuild\\win64\\bilinear.obj",
+    "file": "bilinear.c",
+    "output": "build/win64/bilinear.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   eig.c /Fobuild\\win64\\eig.obj",
+    "file": "eig.c",
+    "output": "build/win64/eig.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   anyNonFinite.c /Fobuild\\win64\\anyNonFinite.obj",
+    "file": "anyNonFinite.c",
+    "output": "build/win64/anyNonFinite.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xnrm2.c /Fobuild\\win64\\xnrm2.obj",
+    "file": "xnrm2.c",
+    "output": "build/win64/xnrm2.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   filtfilt.c /Fobuild\\win64\\filtfilt.obj",
+    "file": "filtfilt.c",
+    "output": "build/win64/filtfilt.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   validateattributes.c /Fobuild\\win64\\validateattributes.obj",
+    "file": "validateattributes.c",
+    "output": "build/win64/validateattributes.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   filter.c /Fobuild\\win64\\filter.obj",
+    "file": "filter.c",
+    "output": "build/win64/filter.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   movmean.c /Fobuild\\win64\\movmean.obj",
+    "file": "movmean.c",
+    "output": "build/win64/movmean.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   findpeaks.c /Fobuild\\win64\\findpeaks.obj",
+    "file": "findpeaks.c",
+    "output": "build/win64/findpeaks.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   eml_setop.c /Fobuild\\win64\\eml_setop.obj",
+    "file": "eml_setop.c",
+    "output": "build/win64/eml_setop.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   issorted.c /Fobuild\\win64\\issorted.obj",
+    "file": "issorted.c",
+    "output": "build/win64/issorted.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   interface\\_coder_TraitementEMGV1_api.c /Fobuild\\win64\\_coder_TraitementEMGV1_api.obj",
+    "file": "interface/_coder_TraitementEMGV1_api.c",
+    "output": "build/win64/_coder_TraitementEMGV1_api.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   interface\\_coder_TraitementEMGV1_mex.c /Fobuild\\win64\\_coder_TraitementEMGV1_mex.obj",
+    "file": "interface/_coder_TraitementEMGV1_mex.c",
+    "output": "build/win64/_coder_TraitementEMGV1_mex.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xgeqrf.c /Fobuild\\win64\\xgeqrf.obj",
+    "file": "xgeqrf.c",
+    "output": "build/win64/xgeqrf.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xorgqr.c /Fobuild\\win64\\xorgqr.obj",
+    "file": "xorgqr.c",
+    "output": "build/win64/xorgqr.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   trisolve.c /Fobuild\\win64\\trisolve.obj",
+    "file": "trisolve.c",
+    "output": "build/win64/trisolve.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   useConstantDim.c /Fobuild\\win64\\useConstantDim.obj",
+    "file": "useConstantDim.c",
+    "output": "build/win64/useConstantDim.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xgetrf.c /Fobuild\\win64\\xgetrf.obj",
+    "file": "xgetrf.c",
+    "output": "build/win64/xgetrf.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   mrdivide_helper.c /Fobuild\\win64\\mrdivide_helper.obj",
+    "file": "mrdivide_helper.c",
+    "output": "build/win64/mrdivide_helper.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xscal.c /Fobuild\\win64\\xscal.obj",
+    "file": "xscal.c",
+    "output": "build/win64/xscal.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xzlarf.c /Fobuild\\win64\\xzlarf.obj",
+    "file": "xzlarf.c",
+    "output": "build/win64/xzlarf.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xdhseqr.c /Fobuild\\win64\\xdhseqr.obj",
+    "file": "xdhseqr.c",
+    "output": "build/win64/xdhseqr.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xzlarfg.c /Fobuild\\win64\\xzlarfg.obj",
+    "file": "xzlarfg.c",
+    "output": "build/win64/xzlarfg.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xdlanv2.c /Fobuild\\win64\\xdlanv2.obj",
+    "file": "xdlanv2.c",
+    "output": "build/win64/xdlanv2.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   xrot.c /Fobuild\\win64\\xrot.obj",
+    "file": "xrot.c",
+    "output": "build/win64/xrot.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   insertionsort.c /Fobuild\\win64\\insertionsort.obj",
+    "file": "insertionsort.c",
+    "output": "build/win64/insertionsort.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   introsort.c /Fobuild\\win64\\introsort.obj",
+    "file": "introsort.c",
+    "output": "build/win64/introsort.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   TraitementEMGV1_emxutil.c /Fobuild\\win64\\TraitementEMGV1_emxutil.obj",
+    "file": "TraitementEMGV1_emxutil.c",
+    "output": "build/win64/TraitementEMGV1_emxutil.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   TraitementEMGV1_mexutil.c /Fobuild\\win64\\TraitementEMGV1_mexutil.obj",
+    "file": "TraitementEMGV1_mexutil.c",
+    "output": "build/win64/TraitementEMGV1_mexutil.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   interface\\_coder_TraitementEMGV1_info.c /Fobuild\\win64\\_coder_TraitementEMGV1_info.obj",
+    "file": "interface/_coder_TraitementEMGV1_info.c",
+    "output": "build/win64/_coder_TraitementEMGV1_info.obj"
+  },
+  {
+    "directory": "D:\\TESTEMG\\codegen\\mex\\TraitementEMGV1",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /I \".\" /I \"D:\\TESTEMG\" /I \".\\CXSparse\\Include\" /I \".\\CXSparse\\SuiteSparse_config\" /I \".\\CXSparse\\CXSparseSupport\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2020b\\extern\\include\" /I \".\" -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS -DMODEL=TraitementEMGV1_mex   \"C:\\Program Files\\MATLAB\\R2020b\\extern\\version\\c_mexapi_version.c\" /Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2020b/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  }
+]

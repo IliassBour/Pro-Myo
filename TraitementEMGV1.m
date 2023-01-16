@@ -1,0 +1,53 @@
+function [Rect, MAW1, MAW2, MAW3, TempsPousse, TempsRecov] = TraitementEMGV1(P)
+    %% 1-Données
+    %P = load('Course400mPiste.mat');
+    Q = P.EMG;
+    X = Q(:,4);
+    Fs = 1000;                     % Fréquence d'échantillonage (Hz)
+    t = 1/Fs:1/Fs:(length(X)/Fs);  % Vecteur temps de l'échantillon
+    k1 = 101;                      % Largeur de fenêtre #1
+    k2 = 501;                      % Largeur de fenêtre #2
+    k3 = 1001;                     % Largeur de fenêtre #3
+    
+    %% 2-Éliminer DC et tendance linéaire
+    X = X-mean(X);   % Éliminer le DC
+    X = detrend(X);  % Élminier la tendance linéaire
+    
+    %% 3-Filtrer
+    [Pxx,F] = pwelch(X,[],[],[],Fs);                    % Estimation de la densité spectrale de puissance du signal
+    PSD = 10*log10(Pxx/1);                              % Conversion en dB/Hz
+    PSD(:,1) = PSD(:,1)- mean(PSD(round(0.9*length(PSD)):end, 1));  % Éliminer le bruit
+    
+    sumX = cumsum(PSD);                                 % Somme cumulée du PSD
+    totalX = mean(sumX(round(0.9*length(sumX):end), 1));   % Moyenne des derniers 10% de la somme cumulée
+    isumX = find(sumX>=0.95*totalX,1,'first');          % Identification de l'index correspondant à la fréquence de coupure
+    Fc = round(F(isumX));                               % Fréquence de coupure
+    
+    [b,a] = butter(2,[20/(Fs/2) Fc/(Fs/2)],'bandpass'); % Filtre passe-bande (20 Hz à Fc)
+    Y = filtfilt(b,a,X);                                % Filtre d'ordre 2
+    
+    %% 4-Rectifier
+    Rect = abs(Y);             % Rectification par valeur absolue
+    MAW1 = movmean(Rect,k1);   % Moyenne mobile centrée #1
+    MAW2 = movmean(Rect,k2);   % Moyenne mobile centrée #2
+    MAW3 = movmean(Rect,k3);   % Moyenne mobile centrée #3
+    
+    %% 5-Analyser
+    Peaks = findpeaks(MAW1);    % Identifier les pics
+    
+    trecov = 0;
+    tpush = 0;
+    Seuil = mean(Rect);
+    
+    
+    for i=1:56211
+      if MAW1(i) < Seuil
+          trecov = trecov + 0.001;
+      else
+          tpush = tpush + 0.001;
+      end
+      
+    end
+    TempsPousse = tpush/128
+    TempsRecov = trecov/128
+end
