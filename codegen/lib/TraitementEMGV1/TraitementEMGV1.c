@@ -51,7 +51,7 @@ static double rt_roundd_snf(double u)
 }
 
 /*
- * %% 1-Données
+ * %% 1-Donnï¿½es
  * P = load('Course400mPiste.mat');
  * Arguments    : const struct0_T *P
  *                double Rect[60501]
@@ -91,20 +91,20 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
     TraitementEMGV1_initialize();
   }
 
-  /*  Fréquence d'échantillonage (Hz) */
-  /*  Vecteur temps de l'échantillon */
-  /*  Largeur de fenêtre #1 */
-  /*  Largeur de fenêtre #2 */
-  /*  Largeur de fenêtre #3 */
-  /*     %% 2-Éliminer DC et tendance linéaire */
+  /*  Frï¿½quence d'ï¿½chantillonage (Hz) */
+  /*  Vecteur temps de l'ï¿½chantillon */
+  /*  Largeur de fenï¿½tre #1 */
+  /*  Largeur de fenï¿½tre #2 */
+  /*  Largeur de fenï¿½tre #3 */
+  /*     %% 2-ï¿½liminer DC et tendance linï¿½aire */
   Seuil = P->EMG[181503];
   for (k = 0; k < 60500; k++) {
     Seuil += P->EMG[k + 181504];
   }
-
+  
   Seuil /= 60501.0;
-
-  /*  Éliminer le DC */
+  printf("seuil: %f", Seuil);
+  /*  eliminer le DC */
   for (i = 0; i < 60501; i++) {
     b_P[i] = P->EMG[i + 181503] - Seuil;
   }
@@ -113,11 +113,11 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
   emxInit_real_T(&F, 1);
   detrend(b_P, X);
 
-  /*  Élminier la tendance linéaire */
+  /*  ï¿½lminier la tendance linï¿½aire */
   /*     %% 3-Filtrer */
   pwelch(X, PSD, F);
 
-  /*  Estimation de la densité spectrale de puissance du signal */
+  /*  Estimation de la densitï¿½ spectrale de puissance du signal */
   nx = PSD->size[0] * PSD->size[1];
   for (k = 0; k < nx; k++) {
     PSD->data[k] = log10(PSD->data[k]);
@@ -174,7 +174,7 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
 
   emxFree_real_T(&b_PSD);
 
-  /*  Éliminer le bruit */
+  /*  ï¿½liminer le bruit */
   nx = 2;
   if (PSD->size[0] != 1) {
     nx = 1;
@@ -182,7 +182,7 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
 
   useConstantDim(PSD, nx);
 
-  /*  Somme cumulée du PSD */
+  /*  Somme cumulï¿½e du PSD */
   if ((PSD->size[0] == 0) || (PSD->size[1] == 0)) {
     nx = 0;
   } else {
@@ -264,7 +264,7 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
     }
   }
 
-  /*  Moyenne des derniers 10% de la somme cumulée */
+  /*  Moyenne des derniers 10% de la somme cumulï¿½e */
   idx = PSD->size[0];
   x_size_idx_1 = PSD->size[1];
   Seuil = 0.95 * (Seuil / (double)y->size[1]);
@@ -298,7 +298,7 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
     k = (1 <= idx);
   }
 
-  /*  Identification de l'index correspondant à la fréquence de coupure */
+  /*  Identification de l'index correspondant ï¿½ la frï¿½quence de coupure */
   if (0 <= k - 1) {
     Fc_data[0] = F->data[ii_data[0] - 1];
   }
@@ -308,7 +308,7 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
     Fc_data[0] = rt_roundd_snf(Fc_data[0]);
   }
 
-  /*  Fréquence de coupure */
+  /*  Frï¿½quence de coupure */
   dv[0] = 0.04;
   if (0 <= k - 1) {
     dv[1] = Fc_data[0] / 500.0;
@@ -316,7 +316,7 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
 
   butter(dv, b, a);
 
-  /*  Filtre passe-bande (20 Hz à Fc) */
+  /*  Filtre passe-bande (20 Hz ï¿½ Fc) */
   filtfilt(b, a, X);
 
   /*  Filtre d'ordre 2 */
@@ -328,13 +328,13 @@ void TraitementEMGV1(const struct0_T *P, double Rect[60501], double MAW1[60501],
   /*  Rectification par valeur absolue */
   vmovfun(Rect, MAW1);
 
-  /*  Moyenne mobile centrée #1 */
+  /*  Moyenne mobile centrï¿½e #1 */
   b_vmovfun(Rect, MAW2);
 
-  /*  Moyenne mobile centrée #2 */
+  /*  Moyenne mobile centrï¿½e #2 */
   c_vmovfun(Rect, MAW3);
 
-  /*  Moyenne mobile centrée #3 */
+  /*  Moyenne mobile centrï¿½e #3 */
   /*     %% 5-Analyser */
   /*  Identifier les pics */
   cdiff = 0.0;
