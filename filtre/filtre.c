@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 #define SIZE 100
+#define k 9 /*------------nécessairement impair------------*/
 void dcTrend(double &table, float out[]){
     //Eliminer Dc
     /*double mean, sum, index = 0;
@@ -18,6 +19,31 @@ void dcTrend(double &table, float out[]){
     DetrendMean(&table, out);
     //Élimener tendance lineaire
     DetrendLinear(&table, out);
+}
+
+void rect(double &table, float out[]) {
+    for(int i = 0; i < SIZE; i++){
+        if(table[0][i]<0){
+            table[0][i]= -table[0][i];
+        }
+    }
+}
+
+void lise(double &table, float out[]) {
+    for(int i = 0; i < SIZE; i++){
+        double mean, sum, index, meanind = 0;
+        double bid = (k-1)/2;
+        for(index < k;){
+            if((i-bid>=0) && (i - bid <= SIZE)){
+                sum += table[0][i - bid];
+                meanind++;
+            }
+            index++;
+            bid--;
+        }
+        mean = sum/meanind;
+        out[0][i] = mean;
+    }
 }
 
 void filtre(double &input[]) {
