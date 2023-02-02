@@ -1,34 +1,38 @@
-#include <stdio.h>
-#define MAX_LEN 100
+/*#include <stdio.h>
+#include <math.h>
 
-float moving_average(float arr[], int n, int k) {
-    int i;
-    float sum = 0;
-    for (i = 0; i < k; i++)
-        sum += arr[i];
-    float avg = sum / k;
-    for (i = k; i < n; i++) {
-        sum += arr[i] - arr[i - k];
-        avg = sum / k;
+void centered_moving_average(double *y, int n, int window_size, double *smoothed) {
+    int half_window = window_size / 2;
+    for (int i = 0; i < n; i++) {
+        double sum = 0;
+        int count = 0;
+        for (int j = i - half_window; j <= i + half_window; j++) {
+            if (j >= 0 && j < n) {
+                sum += y[j];
+                count++;
+            }
+        }
+        smoothed[i] = sum / count;
     }
-    return avg;
 }
 
 int main() {
-    float arr[MAX_LEN];
-    int n, k, i;
-
+    int n, window_size;
     printf("Enter the number of data points: ");
     scanf("%d", &n);
+    printf("Enter the window size: ");
+    scanf("%d", &window_size); 
+    double y[n];
     printf("Enter the data: ");
-    for (i = 0; i < n; i++)
-        scanf("%f", &arr[i]);
-    printf("Enter the number of points to average: ");
-    scanf("%d", &k);
-    printf("The moving average is: %f\n", moving_average(arr, n, k));
-
+    for (int i = 0; i < n; i++)
+        scanf("%lf", &y[i]);
+    double smoothed[n];
+    centered_moving_average(y, n, window_size, smoothed);
+    printf("The smoothed data is: \n");
+    for (int i = 0; i < n; i++)
+        printf("%lf\n", smoothed[i]);
     return 0;
-}
+}/**/
 
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
@@ -69,7 +73,7 @@ int main() {
         scanf("%lf %lf", &real, &imag);
         x[i] = real + I * imag;
     }
-
+    
     fft(x, N);
 
     printf("The FFT result is: \n");
@@ -77,14 +81,14 @@ int main() {
         printf("%lf + %lfi\n", creal(x[i]), cimag(x[i]));
 
     return 0;
-}
+}/**/
 
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <math.h>
-
+//Fonction mais rajoute un offset
 void linear_detrend(double *y, int n, double *trend, double *residuals) {
     double sum_x = 0, sum_y = 0, sum_xy = 0, sum_x2 = 0;
     for (int i = 0; i < n; i++) {
@@ -126,12 +130,12 @@ int main() {
         printf("%lf\n", residuals[i]);
 
     return 0;
-}
+}/**/
 
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <math.h>
 
 void mean_detrend(double *y, int n, double *residuals) {
@@ -162,7 +166,29 @@ int main() {
         printf("%lf\n", residuals[i]);
 
     return 0;
-}
+}/**/
 
 /*---------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------*/
+/*#include <stdio.h>
+#include <math.h>
+
+void rectify(double *y, int n, double *rectified) {
+    for (int i = 0; i < n; i++)
+        rectified[i] = fabs(y[i]);
+}
+int main() {
+    int n;
+    printf("Enter the number of data points: ");
+    scanf("%d", &n);
+    double y[n];
+    printf("Enter the data: ");
+    for (int i = 0; i < n; i++)
+        scanf("%lf", &y[i]);
+    double rectified[n];
+    rectify(y, n, rectified);
+    printf("The rectified data is: \n");
+    for (int i = 0; i < n; i++)
+        printf("%lf\n", rectified[i]);
+    return 0;
+}/**/
