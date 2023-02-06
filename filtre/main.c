@@ -3,8 +3,8 @@
 #include "filtre.h"
 
 int main() {
-   
-    filtre();
+    double input[16];
+    filtre(*input);
 
     return 0;
 }

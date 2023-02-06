@@ -40,7 +40,7 @@ int main() {
 #include <complex.h>
 #include <math.h>
 #include <stdio.h>
-
+const double M_PI = 3.14159265359;
 void fft(double complex *x, int N) {
     if (N == 1)
         return;
