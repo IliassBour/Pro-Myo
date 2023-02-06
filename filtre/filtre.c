@@ -5,9 +5,9 @@
 #include <math.h>
 #include <math.h>
 #include <complex.h>
-#include <fftw3.h>
+//#include <fftw3.h>
 
-#define SIZE 100
+#define SIZE 8
 #define PI 3.14159265359
 //#define k 9 /*------------nécessairement impair------------*/
 /*void dcTrend(double &table, float out[]){
@@ -73,7 +73,7 @@ void convert_log(double *y, double *y_log, int size)
 }
 
 
-void spectral_density_welch(double *signal, int signal_length, int fs, double *spectral_density) {
+/*void spectral_density_welch(double *signal, int signal_length, int fs, double *spectral_density) {
     int i, j;
     int window_length = signal_length / 2;
     int overlap = window_length / 2;
@@ -110,7 +110,7 @@ void spectral_density_welch(double *signal, int signal_length, int fs, double *s
     for (i = 0; i < window_length / 2 + 1; i++) {
         spectral_density[i] /= avg;
     }
-}
+}*/
 
 void butterworth_highpass(double *y, int n, double cutoff_frequency, double sample_rate, double *filtered) {
     double alpha = tan(PI * cutoff_frequency / sample_rate);
@@ -169,7 +169,7 @@ void rectify(double *y, int n, double *rectified) {
 }*/
 
 // Fonction pour concevoir les coefficients du filtre
-void design_filter(double *b, double *a, int n, double fc, double fs, char type)
+/*void design_filter(double *b, double *a, int n, double fc, double fs, char type)
 {
     double wc = 2 * PI * fc / fs;
     double wc2 = wc * wc;
@@ -197,7 +197,7 @@ void design_filter(double *b, double *a, int n, double fc, double fs, char type)
         a[2] = (1 - sqrt2 * k + k2) / (1 + sqrt2 * k + k2);
         break;
     }
-}
+}*/
 
 void centered_moving_average(double *y, int n, int window_size, double *smoothed) {
     int half_window = window_size / 2;
@@ -245,20 +245,20 @@ void filtre(double *input) {
     linear_detrend(residualsMean, nbDataPoints, trendLinear, residualsLin);
     /*for (int i = 0; i < nbDataPoints; i++)
         printf("%lf\n", residualsLin[i]);*/
-       double dps[SIZE];
-    spectral_density_welch(residualsLin, SIZE, fs, dps)
+    //double dps[SIZE];
+    //spectral_density_welch(residualsLin, SIZE, fs, dps);
     
-    double log[SIZE];
-    convert_log(data, SIZE, log);
+    double log[nbDataPoints];
+    convert_log(residualsLin, log, nbDataPoints);
 
     double fc_low = fs/5;// À modifier après tester matlab
     double fc_high = 20;
 
-    double data_highpass[SIZE];
-    butterworth_highpass(log, SIZE, fc_high , fs, data_highpass);
+    double data_highpass[nbDataPoints];
+    butterworth_highpass(residualsLin, nbDataPoints, fc_high , fs, data_highpass);
 
-    double data_bandpass[SIZE];
-    butterworth_lowpass(data_highpass, SIZE, fc_low, fs, data_bandpass);
+    double data_bandpass[nbDataPoints];
+    butterworth_lowpass(data_highpass, nbDataPoints, fc_low, fs, data_bandpass);
     
 
     //Rectifier
