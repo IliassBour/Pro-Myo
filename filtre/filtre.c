@@ -33,7 +33,7 @@ void lise(double &table, float out[]) {
     for(int i = 0; i < SIZE; i++){
         double mean, sum, index, meanind = 0;
         double bid = (k-1)/2;
-        for(index < k;){
+        if(index < k;){
             if((i-bid>=0) && (i - bid <= SIZE)){
                 sum += table[0][i - bid];
                 meanind++;
