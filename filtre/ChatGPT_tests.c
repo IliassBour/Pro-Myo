@@ -192,3 +192,43 @@ int main() {
         printf("%lf\n", rectified[i]);
     return 0;
 }/**/
+
+/*
+#define N 1000// Fréquence d'échantillonnage (Hz)
+#define Fs 1000// Fréquence de coupure haute (Hz)
+#define Fc_high 20// Fréquence de coupure basse (Hz)
+#define Fc_low ... // calculez la fréquence de coupure basse// Variables pour les coefficients du filtredouble a_high[3];
+double b_high[3];
+double a_low[3];
+double b_low[3];
+// Fonction pour concevoir les coefficients du filtrevoid design_filter(double *b, double *a, int n, double fc, double fs, char type)
+{
+    double wc = 2 * M_PI * fc / fs;
+    double wc2 = wc * wc;
+    double wc4 = wc2 * wc2;
+    double k = wc / tan(wc / 2);
+    double k2 = k * k;
+    double k4 = k2 * k2;
+    double sqrt2 = sqrt(2);
+    switch (type)
+    {
+    case 'h':
+        b[0] = k2 / (1 + sqrt2 * k + k2);
+        b[1] = -2 * b[0];
+        b[2] = b[0];
+        a[0] = 1;
+        a[1] = -2 * (k2 - 1) / (1 + sqrt2 * k + k2);
+        a[2] = (1 - sqrt2 * k + k2) / (1 + sqrt2 * k + k2);
+        break;
+    case 'l':
+        b[0] = 1 / (1 + sqrt2 * k + k2);
+        b[1] = 2 * b[0];
+        b[2] = b[0];
+        a[0] = 1;
+        a[1] = 2 * (k2 - 1) / (1 + sqrt2 * k + k2);
+        a[2] = (1 - sqrt2 * k + k2) / (1 + sqrt2 * k + k2);
+        break;
+    }
+}
+
+/**/
