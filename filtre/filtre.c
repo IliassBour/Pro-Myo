@@ -240,36 +240,40 @@ void filtre(double *input) {
     //Filtrer
     //dcTrend(&input, out);
     mean_detrend(input, nbDataPoints, residualsMean);
-    /*for (int i = 0; i < nbDataPoints; i++)
-        printf("%lf\n", residualsMean[i]);*/
+    for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", residualsMean[i]);
     linear_detrend(residualsMean, nbDataPoints, trendLinear, residualsLin);
-    /*for (int i = 0; i < nbDataPoints; i++)
-        printf("%lf\n", residualsLin[i]);*/
+    for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", residualsLin[i]);
     //double dps[SIZE];
     //spectral_density_welch(residualsLin, SIZE, fs, dps);
-    
     double log[nbDataPoints];
     convert_log(residualsLin, log, nbDataPoints);
+    for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", log[i]);
 
     double fc_low = fs/5;// À modifier après tester matlab
     double fc_high = 20;
-
     double data_highpass[nbDataPoints];
     butterworth_highpass(residualsLin, nbDataPoints, fc_high , fs, data_highpass);
+    for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", data_highpass[i]);
 
     double data_bandpass[nbDataPoints];
     butterworth_lowpass(data_highpass, nbDataPoints, fc_low, fs, data_bandpass);
+    for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", data_bandpass[i]);
     
 
     //Rectifier
-    /*rectify(data_bandpass, nbDataPoints, rectified);
+    rectify(data_bandpass, nbDataPoints, rectified);
     for (int i = 0; i < nbDataPoints; i++)
-        printf("%lf\n", rectified[i]);*/
+        printf("%lf\n", rectified[i]);
 
     //Analyser
     //centered_moving_average(rectified, nbDataPoints, 1000, smoothed);
     centered_moving_average(data_bandpass, nbDataPoints, 10, smoothed);
-    /*for (int i = 0; i < nbDataPoints; i++)
-        printf("%lf\n", smoothed[i]);*/
+    for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", smoothed[i]);
     printf("test");
 }
