@@ -5,7 +5,8 @@
 #include <math.h>
 
 #define SIZE 100
-#define k 9 /*------------nécessairement impair------------*/
+#define PI 3.14159265359
+//#define k 9 /*------------nécessairement impair------------*/
 /*void dcTrend(double &table, float out[]){
     //Eliminer Dc
     /*double mean, sum, index = 0;
@@ -82,6 +83,37 @@ void rectify(double *y, int n, double *rectified) {
     }
 }*/
 
+// Fonction pour concevoir les coefficients du filtre
+void design_filter(double *b, double *a, int n, double fc, double fs, char type)
+{
+    double wc = 2 * PI * fc / fs;
+    double wc2 = wc * wc;
+    double wc4 = wc2 * wc2;
+    double k = wc / tan(wc / 2);
+    double k2 = k * k;
+    double k4 = k2 * k2;
+    double sqrt2 = sqrt(2);
+    switch (type)
+    {
+    case 'h':
+        b[0] = k2 / (1 + sqrt2 * k + k2);
+        b[1] = -2 * b[0];
+        b[2] = b[0];
+        a[0] = 1;
+        a[1] = -2 * (k2 - 1) / (1 + sqrt2 * k + k2);
+        a[2] = (1 - sqrt2 * k + k2) / (1 + sqrt2 * k + k2);
+        break;
+    case 'l':
+        b[0] = 1 / (1 + sqrt2 * k + k2);
+        b[1] = 2 * b[0];
+        b[2] = b[0];
+        a[0] = 1;
+        a[1] = 2 * (k2 - 1) / (1 + sqrt2 * k + k2);
+        a[2] = (1 - sqrt2 * k + k2) / (1 + sqrt2 * k + k2);
+        break;
+    }
+}
+
 void centered_moving_average(double *y, int n, int window_size, double *smoothed) {
     int half_window = window_size / 2;
     for (int i = 0; i < n; i++) {
@@ -98,32 +130,53 @@ void centered_moving_average(double *y, int n, int window_size, double *smoothed
 }
 
 void filtre(double *input) {
-    /*double data[5][SIZE];
+    double data[5][SIZE];
     double fs = 1000; //frequence d echantillonnage
-    double k1 = 101; //largeur fenetre 1
+    /*double k1 = 101; //largeur fenetre 1
     double k2 = 501; //largeur fenetre 2
     double k3 = 1001; //largeur fenetre 3
     float out[:] = input[:];*/
 
-    int nbDataPoints = 16;
+    int nbDataPoints = 8;
     double residualsMean[nbDataPoints];
     double trendLinear[nbDataPoints];
     double residualsLin[nbDataPoints];
-    double afterFilter[8];
-    double rectified[8];
-    double smoothed[8];
+    double afterFilter[nbDataPoints];
+    double rectified[nbDataPoints];
+    double smoothed[nbDataPoints];
+    int N = 1000;
+    double fc = 5000;
+    double a_high[3];
+    double b_high[3];
+    double a_low[3];
+    double b_low[3];
+    char filter_type = 'h';
 
     //Filtrer
     //dcTrend(&input, out);
     mean_detrend(input, nbDataPoints, residualsMean);
+    /*for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", residualsMean[i]);*/
     linear_detrend(residualsMean, nbDataPoints, trendLinear, residualsLin);
-    
+    /*for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", residualsLin[i]);*/
+    design_filter(b_high, a_high, N, fc, fs, filter_type);
+    /*for (int i = 0; i < 3; i++)
+        printf("%lf\n", a_high[i]);
+    for (int i = 0; i < 3; i++)
+        printf("%lf\n", b_high[i]);*/
     //insert filter function
-    printf("test");
+    
 
     //Rectifier
-    rectify(afterFilter, 8, rectified);
+    /*rectify(afterFilter, nbDataPoints, rectified);
+    for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", rectified[i]);*/
 
     //Analyser
-    centered_moving_average(rectified, 8, 1000, smoothed);
+    //centered_moving_average(rectified, nbDataPoints, 1000, smoothed);
+    centered_moving_average(residualsLin, nbDataPoints, 10, smoothed);
+    /*for (int i = 0; i < nbDataPoints; i++)
+        printf("%lf\n", smoothed[i]);*/
+    printf("test");
 }

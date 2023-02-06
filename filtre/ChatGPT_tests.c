@@ -194,14 +194,21 @@ int main() {
 }/**/
 
 /*
-#define N 1000// Fréquence d'échantillonnage (Hz)
-#define Fs 1000// Fréquence de coupure haute (Hz)
-#define Fc_high 20// Fréquence de coupure basse (Hz)
-#define Fc_low ... // calculez la fréquence de coupure basse// Variables pour les coefficients du filtredouble a_high[3];
+#define N 1000
+// Fréquence d'échantillonnage (Hz)
+#define Fs 1000
+// Fréquence de coupure haute (Hz)
+#define Fc_high 20
+// Fréquence de coupure basse (Hz)
+#define Fc_low ... 
+// calculez la fréquence de coupure basse
+// Variables pour les coefficients du filtre
+double a_high[3];
 double b_high[3];
 double a_low[3];
 double b_low[3];
-// Fonction pour concevoir les coefficients du filtrevoid design_filter(double *b, double *a, int n, double fc, double fs, char type)
+// Fonction pour concevoir les coefficients du filtre
+void design_filter(double *b, double *a, int n, double fc, double fs, char type)
 {
     double wc = 2 * M_PI * fc / fs;
     double wc2 = wc * wc;
