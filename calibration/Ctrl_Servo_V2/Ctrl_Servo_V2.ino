@@ -5,7 +5,7 @@ Servo myservo;
 const int EMGpin=A0;
 const int SERVOpin=13;
 const byte numChars = 32;
-const int temps_calib = 10000;
+const int temps_calib = 2000;
 const int temps_move = 30000;
 //--------------Variables--------------//
 int Seuil=0;

@@ -5,15 +5,17 @@ Servo myservo;
 const int EMGpin=A0;
 const int SERVOpin=13;
 const byte numChars = 32;
-const int temps_calib = 2000;
-const int temps_move = 30000;
+const int temps_calib = 1000;
+const int temps_move = 2000;
 //--------------Variables--------------//
 int Seuil=0;
 int SeuilComparaison = 0;
 int SeuilMove = 0;
 int valeur_precedent = 0;
-int valeurNew = 0;
-int valeurOld = 0;
+int valeurNewRelax = 0;
+int valeurOldRelax = 0;
+int valeurNewForce = 0;
+int valeurOldForce = 0;
 int temps_initial = 0;
 int temps_final = 0;
 //--------------Fonctions--------------//
@@ -33,44 +35,45 @@ void setup() {
 
 
 void Calibration() {
-  valeurNew = 0;
-  Serial.println("\t 1- Calibration point ouvert\n\t 2- Calibreation point fermé\n\t 3- Back");
-  while (Serial.available() == 0) {
+  valeurOldRelax = 0;
+  valeurNewRelax = 0;
+  Serial.println("Relaxez votre bras");
+  delay(1000);
+  temps_initial = millis();
+  temps_final = millis();
+  while(temps_final < temps_calib+temps_initial){
+    valeurNewRelax = analogRead(EMGpin);
+    if (valeurNewRelax > valeurOldRelax){
+      valeurOldRelax = valeurNewRelax;
     }
-  int CalibChoice = Serial.parseInt();
-  switch (CalibChoice) {
-    case 1:
-      Serial.println("Relaxez votre bras");
-      valeurOld = 0;
-      temps_initial = millis();
-      temps_final = millis();
-      while(temps_final < temps_calib+temps_initial){
-        valeurNew = analogRead(EMGpin);
-        if (valeurNew > valeurOld){
-          valeurOld = valeurNew;
-        }
-        temps_final = millis();
-      }
-      Serial.println("Fin");
-      break;
-    case 2:
-      Serial.println("Forcez");
-      valeurOld = 1024;
-      delay(500);
-      temps_initial = millis();
-      temps_final = millis();
-      while(temps_final < temps_calib+temps_initial){
-        valeurNew = analogRead(EMGpin);
-        if (valeurNew < valeurOld){
-          valeurOld = valeurNew;
-        }
-        temps_final = millis();
-      }
-      Serial.println("Fin");
-      break; 
-    case 3: 
-      break;
+    temps_final = millis();
+    Serial.println(valeurNewRelax);
+    delay(1);
   }
+  Serial.println("Fin");
+    
+  Serial.println("Forcez");
+  valeurOldForce = 1024;
+  valeurNewForce = 1024;
+  delay(1000);
+  temps_initial = millis();
+  temps_final = millis();
+  while(temps_final < temps_calib+temps_initial){
+    valeurNewForce = analogRead(EMGpin);
+    if (valeurNewForce < valeurOldForce){
+      valeurOldForce = valeurNewForce;
+    }
+    temps_final = millis();
+    Serial.println(valeurNewForce);
+    delay(1);
+  }  
+  Serial.println("Fin");
+  Seuil = (valeurOldForce + valeurOldRelax)/2;
+  SeuilComparaison = Seuil/2;
+  SeuilMove = Seuil;
+  Serial.println(Seuil);
+  Serial.println(SeuilComparaison);
+  Serial.println(SeuilMove);
 }
 
 
@@ -83,6 +86,7 @@ void MoveMotors(int valeur){
     myservo.write(10);
     SeuilMove = Seuil;
   }
+  Serial.println(valeur);
 }
 
 
@@ -109,6 +113,7 @@ void loop() {
       while(temps_final < temps_move+temps_initial){ //Pour le moment, bouge pendant un temps défini. Éventuellement, faire sortir avec une selection de l'utilisateur.
         MoveMotors(analogRead(EMGpin));              //Possibiliter d'alléger le loop en mettant la boucle while et le reste dans la fonction MoveMotors
         temps_final = millis();
+        delay(1);
       }
       Serial.println("Motors Done");
       Serial.println("Motors position");
