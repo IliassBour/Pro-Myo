@@ -5,13 +5,15 @@ Servo myservo;
 const int EMGpin=A0;
 const int SERVOpin=13;
 const byte numChars = 32;
-const int temps_calib = 10000;
+const int temps_calib = 2000;
 const int temps_move = 30000;
 //--------------Variables--------------//
 int Seuil=0;
 int SeuilComparaison = 0;
 int SeuilMove = 0;
 int valeur_precedent = 0;
+int valeurNew = 0;
+int valeurOld = 0;
 int temps_initial = 0;
 int temps_final = 0;
 //--------------Fonctions--------------//
@@ -30,14 +32,45 @@ void setup() {
 }
 
 
-void Calibration(int valeur) {
-  if(valeur > valeur_precedent){
-    Seuil = valeur/6;
-    SeuilComparaison = Seuil/2;
-    SeuilMove = Seuil;
-    valeur_precedent = valeur;
+void Calibration() {
+  valeurNew = 0;
+  Serial.println("\t 1- Calibration point ouvert\n\t 2- Calibreation point fermé\n\t 3- Back");
+  while (Serial.available() == 0) {
+    }
+  int CalibChoice = Serial.parseInt();
+  switch (CalibChoice) {
+    case 1:
+      Serial.println("Relaxez votre bras");
+      valeurOld = 0;
+      temps_initial = millis();
+      temps_final = millis();
+      while(temps_final < temps_calib+temps_initial){
+        valeurNew = analogRead(EMGpin);
+        if (valeurNew > valeurOld){
+          valeurOld = valeurNew;
+        }
+        temps_final = millis();
+      }
+      Serial.println("Fin");
+      break;
+    case 2:
+      Serial.println("Forcez");
+      valeurOld = 1024;
+      delay(500);
+      temps_initial = millis();
+      temps_final = millis();
+      while(temps_final < temps_calib+temps_initial){
+        valeurNew = analogRead(EMGpin);
+        if (valeurNew < valeurOld){
+          valeurOld = valeurNew;
+        }
+        temps_final = millis();
+      }
+      Serial.println("Fin");
+      break; 
+    case 3: 
+      break;
   }
-  Serial.println(valeur);
 }
 
 
@@ -54,7 +87,7 @@ void MoveMotors(int valeur){
 
 
 void loop() {
-  Serial.println("Make A Choice\n 1- Calibration\n 2- Move Motors\n 3- Back");
+  Serial.println("Make A Choice\n 1- Calibration\n 2- Move Motors\n 3- Back\n");
   while (Serial.available() == 0) {
   }
   int menuChoice = Serial.parseInt();
@@ -62,16 +95,9 @@ void loop() {
     case 1:
       Serial.println("Calibration Start");
       Seuil = 0;
-      temps_initial = millis();
-      temps_final = millis();
-      while(temps_final < temps_calib+temps_initial){ //Pour le moment, bouge pendant un temps défini. Éventuellement, ajouter une sortie si mauvais choix appliquer.
-        Calibration(analogRead(EMGpin));             //Possibiliter d'alléger le loop en mettant la boucle while et le reste dans la fonction Calibation
-        //Serial.println(analogRea1d(EMGpin));
-        temps_final = millis();
-        delay(1);
-      }
+      Calibration();
       Serial.println("Calibration Done");
-      Serial.println("Seuil :");
+      Serial.println("Seuil :"); 
       Serial.println(Seuil);
       Serial.println("\n");
       break;
