@@ -34,26 +34,30 @@ int i = 0;
 String data;
 
 void loop() {
-  //Send data
-  /*Serial.println(i);
-  i++;/**/
-  //Receive data then send it back
-  /*while(Serial.available() <= 0) {}
-  data = Serial.readStringUntil('\n');
-  Serial.println("Data=" + data);*/
+  //Read then write
   if(Serial.available() > 0) {
     data = Serial.readStringUntil('\n');
-    //delay(100);
-    //Serial.println("Data=" + data);
     Serial.println(data+"\n"+i);
     i++;
+  }/**/
+
+  //Write then read
+  int a = 0;
+  Serial.println(i);
+  Serial.println(a);
+  i++;
+  while(Serial.available() <= 0) {
+    //delay(100);
+    //Serial.println("Data=" + data);
   }
+  
+  data = Serial.readStringUntil('\n');
 
   //Alumer LED
-  if(i >= 1000) {
+  if(data[2] %2 == 0) {
     analogWrite(10, 0);
   } 
-  else if(i > 0) {
+  else {
     analogWrite(10, 200);
   }/**/
 }
