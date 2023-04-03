@@ -13,9 +13,13 @@ int SeuilComparaison = 0;
 int SeuilMove = 0;
 int valeur_precedent = 0;
 int valeurNewRelax = 0;
-int valeurOldRelax = 0;
+long valeurOldRelax = 0;
 int valeurNewForce = 0;
-int valeurOldForce = 0;
+long valeurOldForce = 0;
+int nbvaleurRelax = 0;
+int nbvaleurForce = 0;
+int MoyRelax = 0;
+int MoyForce = 0;
 int temps_initial = 0;
 int temps_final = 0;
 //--------------Fonctions--------------//
@@ -34,7 +38,7 @@ void setup() {
 }
 
 
-void Calibration() {
+void CalibrationMinMax() {
   valeurOldRelax = 0;
   valeurNewRelax = 0;
   Serial.println("Relaxez votre bras");
@@ -46,9 +50,9 @@ void Calibration() {
     if (valeurNewRelax > valeurOldRelax){
       valeurOldRelax = valeurNewRelax;
     }
-    temps_final = millis();
     Serial.println(valeurNewRelax);
     delay(1);
+    temps_final = millis();
   }
   Serial.println("Fin");
     
@@ -63,12 +67,57 @@ void Calibration() {
     if (valeurNewForce < valeurOldForce){
       valeurOldForce = valeurNewForce;
     }
-    temps_final = millis();
     Serial.println(valeurNewForce);
     delay(1);
+    temps_final = millis();
   }  
   Serial.println("Fin");
   Seuil = (valeurOldForce + valeurOldRelax)/2;
+  SeuilComparaison = Seuil/2;
+  SeuilMove = Seuil;
+  Serial.println(Seuil);
+  Serial.println(SeuilComparaison);
+  Serial.println(SeuilMove);
+}
+
+
+void CalibrationMinMaxMoyen() {
+  valeurOldRelax = 0;
+  valeurNewRelax = 0;
+  nbvaleurRelax = 0;
+  Serial.println("Relaxez votre bras");
+  delay(1000);
+  temps_initial = millis();
+  temps_final = millis();
+  while(temps_final < temps_calib+temps_initial){
+    valeurNewRelax = analogRead(EMGpin);
+    valeurOldRelax += valeurNewRelax;
+    nbvaleurRelax += 1;
+    Serial.println(valeurNewRelax);
+    delay(1);
+    temps_final = millis();
+  }
+  MoyRelax = valeurOldRelax/nbvaleurRelax;
+  Serial.println("Fin");
+    
+  Serial.println("Forcez");
+  valeurOldForce = 0;
+  valeurNewForce = 0;
+  nbvaleurForce = 0;
+  delay(1000);
+  temps_initial = millis();
+  temps_final = millis();
+  while(temps_final < temps_calib+temps_initial){
+    valeurNewForce = analogRead(EMGpin);
+    valeurOldForce += valeurNewForce;
+    nbvaleurForce += 1;
+    Serial.println(valeurNewForce);
+    delay(1);
+    temps_final = millis();
+  }  
+  MoyForce = valeurOldForce/nbvaleurForce;
+  Serial.println("Fin");
+  Seuil = (MoyRelax + MoyForce)/2;
   SeuilComparaison = Seuil/2;
   SeuilMove = Seuil;
   Serial.println(Seuil);
@@ -99,7 +148,7 @@ void loop() {
     case 1:
       Serial.println("Calibration Start");
       Seuil = 0;
-      Calibration();
+      CalibrationMinMaxMoyen();
       Serial.println("Calibration Done");
       Serial.println("Seuil :"); 
       Serial.println(Seuil);
